@@ -26,10 +26,7 @@ let package = Package(
                 .target(name: "CUELive"),
                 "Lottie",
             ],
-            path: "CUELiveWrapper",
-            linkerSettings: [
-                .unsafeFlags(["-all_load"]),
-            ]
+            path: "CUELiveWrapper"
         ),
         .binaryTarget(
             name: "CUELive",
