@@ -12,26 +12,19 @@ let package = Package(
             targets: ["CUELiveWrapper", "CUEBluetooth", "engine", "TrueTime", "MQTTClient", "SocketRocket"]
         ),
     ],
-    dependencies: [
-        .package(
-            name: "Lottie",
-            url: "https://github.com/airbnb/lottie-ios",
-            .exact("3.4.4")
-        ),
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "CUELiveWrapper",
             dependencies: [
                 .target(name: "CUELive"),
-                "Lottie",
             ],
             path: "CUELiveWrapper"
         ),
         .binaryTarget(
             name: "CUELive",
-            url: "https://s3.amazonaws.com/swift-package-manager/CUELive/3.5.16/CUELive.3.5.16.xcframework.zip",
-            checksum: "b9f8156e5abbcee66858a3698c30276700ff57717bb83314992c120d00a131e2"
+            url: "https://s3.amazonaws.com/swift-package-manager/CUELive/3.4.16-remove-lottie/CUELive.3.4.16-remove-lottie.xcframework.zip",
+            checksum: "402ee31e752df0a57c08ed67a6546a028ce6ead4d573ba28c7d71d09c643ecdd"
         ),
         .binaryTarget(
             name: "CUEBluetooth",
