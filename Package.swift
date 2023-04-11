@@ -23,8 +23,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "CUELive",
-            url: "https://s3.amazonaws.com/swift-package-manager/CUELive/3.4.18-remove-lottie/CUELive.3.4.18-remove-lottie.xcframework.zip",
-            checksum: "1c0ce7744277027d2e2e708689f4329ba00fcf5871f04f2f3bc8184173263c1f"
+            url: "https://s3.amazonaws.com/swift-package-manager/binaries/CUELive/3.5.26/CUELive.xcframework.zip",
+            checksum: "313a78bd23a37eddb712b892ecb24e7aee0787f80afdb466b0b19faa33e914a8"
         ),
         .binaryTarget(
             name: "CUEBluetooth",
@@ -35,6 +35,11 @@ let package = Package(
             name: "engine",
             url: "https://s3.amazonaws.com/swift-package-manager/engine/1.46.7/engine.1.46.7.xcframework.zip",
             checksum: "ee1cb50708902f98f1a47dda846b5b188535487a2b39ac837e57ddfde6297e59"
+        ),
+        .binaryTarget(
+            name: "Lottie",
+            url: "https://s3.amazonaws.com/swift-package-manager/binaries/Lottie/4.1.3/Lottie.xcframework.zip",
+            checksum: "31ab682ec2c7b49e8a59458f7e4cfa027a07d8ba962df0ddcb95909ce5a9693d"
         ),
         .binaryTarget(
             name: "TrueTime",
