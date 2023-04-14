@@ -21,7 +21,7 @@ You will see the like of installed packages in Project Navigator in the _Package
 
 ## Adding the required `.bundle`
 
-Reach out to your CUELive contact for the resource bundle (file with `.bundle` extension) to be added to your project. Drag and drop the file into your project
+Download the resource bundle (file with `.bundle` extension) [here](https://swift-package-manager.s3.amazonaws.com/bundles/default-bundle.zip). Drag and drop the file into your project
 
 ![](images/xcode-6.png)
 
