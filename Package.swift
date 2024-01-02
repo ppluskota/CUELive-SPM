@@ -44,17 +44,17 @@ let package = Package(
         .binaryTarget(
             name: "TrueTime",
             url: "https://s3.amazonaws.com/swift-package-manager/TrueTime/5.1.0/TrueTime.5.1.0.xcframework.zip",
-            checksum: "8530af22d9375cddc2ee5d73fb1fae7cc220bf7a741c5626180c998ed9162cb4"
+            checksum: "4bab1fc882c66a72a7cdd14d2de7aa2a958dec1d8911b623440646a611f0dc92"
         ),
         .binaryTarget(
             name: "MQTTClient",
             url: "https://s3.amazonaws.com/swift-package-manager/MQTTClient/0.15.3/MQTTClient.0.15.3.xcframework.zip",
-            checksum: "6de6813d51fb593a7cf2833483d4919f697a1372f8ba02ddf35c6d2b5a8aa7c6"
+            checksum: "c6392d6411652f7374f0bc20a6f46519a3ab3ef9ed047669c8a40861bb1fb173"
         ),
         .binaryTarget(
             name: "SocketRocket",
             url: "https://s3.amazonaws.com/swift-package-manager/SocketRocket/0.5.1/SocketRocket.0.5.1.xcframework.zip",
-            checksum: "1bc9d7a3b805b9fcdc7230bf7989c7f6f39884890ab5c38a26011099c27c0ae0"
+            checksum: "0a8e220d9b5391f14d0b6e5f90c31414500055d241e8b10fb58f1d91a4c5c0bd"
         )
     ]
 )
